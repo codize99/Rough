@@ -65,3 +65,16 @@ The appropriate number of clusters can be decided using a **Dendrogram**.
 Other methods include the **Silhouette Score** and **Cophenetic Correlation Coefficient**.
 
 If you want, I can also make these into **short 5-mark exam answers with simpler wording for easy memorization**.
+
+2
+Note: ● Use fetal_health.csv for all the clustering and dimensionality reduction questions. ● Use bread_basket.csv for Association rule mining questions. ● Use BX-Book-Ratings.csv for recommendation system questions.
+(a) Conduct exploratory data analysis (EDA) and apply necessary pre-processing steps to prepare the data for PCA and clustering, (7 marks) How many eigenvectors are needed to retain 90% of the variance of the original data? (3 marks) and Display the top 5 eigenvalues and their corresponding eigenvectors. (4 marks) Note: Don't consider target column fetal_health in PCA and clustering.
+14
+(b) Identify the ideal number of K-means clusters based on principal components retaining 90% explained variance, and visualize the results with the SilhouetteVisualizer..
+6
+(c) Generate dendrograms for the top 20 clusters using five different linkage methods. Use principal components explaining 90% of the variance, compute the cophenetic correlation coefficient for each method, and print the results for comparison.
+6
+SRN
+(d) Partition the data into three clusters and evaluate the quality of each cluster by ranking them based on their within-cluster sum of squares (WCSS). Use PCA-transformed data that retains 90% of the variance.
+6
+(e) Perform clustering on the data using both K-Means and Agglomerative methods without applying PCA, and compare their performance.
